@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "neon";
+    src: url("font/neon.ttf") format("truetype");
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 100vh;
+
+    background: linear-gradient(#060606 90%, #1b2c2d 0);
+    background-size: 100% 20px;
+}
+
+.title {
+    font-family: neon;
+    font-size: 4rem;
+    font-weight: normal;
+
+    margin: 0;
+    padding: 1rem;
+
+    text-align: center;
+    text-shadow: 0 0 0 transparent, 0 0 10px #2695ff,
+        0 0 20px rgba(38, 149, 255, 0.5), 0 0 40px #2695ff, 0 0 100px #2695ff,
+        0 0 200px #2605ff, 0 0 300px #2605ff, 0 0 500px #2695ff;
+    color: #d4eaff;
+    animation: blink 4s infinite alternate;
+    user-select: none;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 1;
+    }
+
+    52% {
+        opacity: 0.2;
+    }
+
+    54% {
+        opacity: 1;
+    }
+
+    56% {
+        opacity: 0.2;
+    }
+
+    58% {
+        opacity: 1;
+    }
+}
