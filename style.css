@@ -23,10 +23,10 @@ body {
     padding: 1rem;
 
     text-align: center;
-    text-shadow: 0 0 0 transparent, 0 0 10px #2695ff,
-        0 0 20px rgba(38, 149, 255, 0.5), 0 0 40px #2695ff, 0 0 100px #2695ff,
-        0 0 200px #2605ff, 0 0 300px #2605ff, 0 0 500px #2695ff;
-    color: #d4eaff;
+    text-shadow: 0 0 0 transparent, 0 0 10px #ff7c26,
+        0 0 20px rgba(38, 149, 255, 0.5), 0 0 40px #ff7c26, 0 0 100px #ff7c26,
+        0 0 200px #ff7c26, 0 0 300px #ff7c26, 0 0 500px #ff7c26;
+    color: #ff7c26;
     animation: blink 4s infinite alternate;
     user-select: none;
 }
